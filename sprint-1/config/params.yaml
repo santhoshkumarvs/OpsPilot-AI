@@ -1,0 +1,7 @@
+model_type: "xgboost"
+features:
+  - age
+  - income
+  - transaction_count
+label: fraud_flag
+version: "v1.0"

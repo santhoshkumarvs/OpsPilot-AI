@@ -1,0 +1,5 @@
+env: dev
+data_path: "./data/"
+log_path: "./logs/"
+enable_schema_validation: true
+enable_data_versioning: true
