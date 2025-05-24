@@ -1,0 +1,5 @@
+pipeline:
+  retries: 3
+  stages:
+    - name: stage_1
+    - name: stage_2
