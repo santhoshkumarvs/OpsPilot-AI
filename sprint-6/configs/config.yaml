@@ -1,0 +1,4 @@
+thresholds:
+  cpu_percent: 80.0
+  memory_mb: 1000
+log_path: logs/app.log

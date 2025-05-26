@@ -1,0 +1,48 @@
+# sprint-6/alerts/alert_rules.yml
+groups:
+  - name: autopilotops-alerts
+    rules:
+      - alert: HighLatency
+        expr: http_request_latency_seconds_bucket{le="0.5"} < 0.8
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High Latency Detected on Endpoint"
+          description: "Less than 80% of requests under 0.5s latency for 1 minute."
+
+      - alert: OOMDetected
+        expr: process_resident_memory_bytes > 900000000
+        for: 2m
+        labels:
+          severity: critical
+        annotations:
+          summary: "High Resident Memory Detected (OOM Risk)"
+          description: "Process memory usage exceeded 900MB."
+
+      - alert: CPUSpike
+        expr: process_cpu_seconds_total > 90
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High CPU Usage Detected"
+          description: "Process CPU usage has crossed 90% for over 1 minute."
+
+      - alert: DiskSpaceLow
+        expr: node_filesystem_free_bytes{mountpoint="/"} < 2000000000
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Low Disk Space"
+          description: "Free disk space under 2GB on root mountpoint."
+
+      - alert: LogErrorSpike
+        expr: increase(app_log_errors_total[2m]) > 5
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Log Error Spike Detected"
+          description: "More than 5 log errors in the last 2 minutes."
