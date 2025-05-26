@@ -1,0 +1,12 @@
+[
+  {
+    "timestamp": "2025-05-26T11:00:00Z",
+    "service": "auth-service",
+    "log": "Timeout error at endpoint /login"
+  },
+  {
+    "timestamp": "2025-05-26T11:01:30Z",
+    "service": "auth-service",
+    "log": "MemoryError in process worker-3"
+  }
+]

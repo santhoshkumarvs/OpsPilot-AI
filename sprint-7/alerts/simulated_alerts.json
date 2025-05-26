@@ -1,0 +1,42 @@
+[
+  {
+    "message": "High latency detected",
+    "metric": "latency",
+    "service": "auth-service",
+    "severity": "critical",
+    "timestamp": "2025-05-26T11:00:00Z",
+    "value": 2.3
+  },
+  {
+    "message": "Memory usage spike",
+    "metric": "memory",
+    "service": "auth-service",
+    "severity": "warning",
+    "timestamp": "2025-05-26T11:01:00Z",
+    "value": 83.5
+  },
+  {
+    "message": "CPU usage exceeded threshold",
+    "metric": "cpu",
+    "service": "payments-service",
+    "severity": "critical",
+    "timestamp": "2025-05-26T11:01:30Z",
+    "value": 91.2
+  },
+  {
+    "message": "Disk space running low",
+    "metric": "disk",
+    "service": "file-service",
+    "severity": "warning",
+    "timestamp": "2025-05-26T11:01:40Z",
+    "value": 92.5
+  },
+  {
+    "message": "Queue latency spike",
+    "metric": "queue_latency",
+    "service": "message-broker",
+    "severity": "critical",
+    "timestamp": "2025-05-26T11:01:45Z",
+    "value": 5.2
+  }
+]

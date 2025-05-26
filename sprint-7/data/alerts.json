@@ -1,0 +1,3 @@
+[
+  {"timestamp": "2025-05-26T12:00:15Z", "severity": "critical", "source": "Prometheus", "message": "High CPU usage detected"}
+]

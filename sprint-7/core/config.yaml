@@ -1,0 +1,11 @@
+event_correlation:
+  window_minutes: 5
+  similarity_threshold: 0.75
+
+rca_engine:
+  enable_stack_trace: true
+  log_analysis_depth: 100
+
+incident_summary:
+  enable_root_cause: true
+  include_resolution_steps: true

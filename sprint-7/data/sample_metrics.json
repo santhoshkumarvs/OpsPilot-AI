@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2025-05-26T11:00:00Z",
+    "service": "auth-service",
+    "cpu": 89.1,
+    "memory": 84.0,
+    "latency": 2.2
+  },
+  {
+    "timestamp": "2025-05-26T11:01:00Z",
+    "service": "auth-service",
+    "cpu": 91.5,
+    "memory": 85.2,
+    "latency": 2.5
+  }
+]
