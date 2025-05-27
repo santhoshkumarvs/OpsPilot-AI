@@ -83,6 +83,17 @@ This is the first sprint of the **OpsPilot-AI** project, focused on building a m
 
 ---
 
+---
+
+### ✅ Next Steps
+- Add the Docker Hub link in your main repo `README.md`
+- Tag your Git repo `v0.8.0` (optional)
+- Let me know if you want GitHub Actions to auto-build and push to Docker Hub for future updates
+
+Let me know once you've pushed — I can validate visibility or help link it to your GitHub if needed.
+
+
+
 ## 🧪 To Run Locally
 
 ### Install dependencies
