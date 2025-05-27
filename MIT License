@@ -1,0 +1,42 @@
+
+---
+
+## 📝 Final `CHANGELOG.md`
+
+```markdown
+# 📋 Changelog
+
+All notable changes for the OpsPilot-AI project.
+
+---
+
+## [v0.8.0] - 2025-05-27
+
+### 🚀 Added
+- cuDNN 8.9.2.26 + CUDA 12.1 support via wheel install
+- Dockerfile optimized with local `.whl` caching
+- Docker image published to Docker Hub: `santy1504/opspilot-ai-1:v0.8.0`
+
+### 🛠 Improved
+- Final enriched output writes to `incident_summary.json`
+- Correlated alerts + logs + metrics more accurate
+- Project structure cleaned for deployment
+
+### 🐛 Fixed
+- Docker build issue with `mv: Not a directory`
+- Added proper context path for Dockerfile usage
+
+---
+
+## [v0.7.0] - Sprint-6 Milestone
+
+### 🚀 Added
+- AI-powered incident correlation engine
+- Metric + log integration pipeline
+- Human-readable incident summaries
+
+---
+
+## Initial Version - Sprint 1–5
+- Base scaffolding, alert loader, testing framework
+- Iterative improvements across input processing
