@@ -126,6 +126,33 @@ Final polish & tag release	🔜 Your call
 
 
 
+# 🧠 OpsPilot-AI
+
+OpsPilot-AI is an intelligent DevOps incident summarizer powered by AI. It ingests alerts, metrics, and logs to produce enriched, correlated incident summaries with root cause analysis.
+
+![Docker Pulls](https://img.shields.io/docker/pulls/santy1504/opspilot-ai-1)
+
+---
+
+## 🚀 Features
+
+- ✅ Real-time alert ingestion and correlation
+- ✅ Incident root cause analysis from metrics and logs
+- ✅ cuDNN 8.9 + CUDA 12 support (optimized for AI enrichment)
+- ✅ Dockerized with local `.whl` installation
+- ✅ Portable and reproducible with `docker run`
+
+---
+
+## 🧪 Quickstart (via Docker)
+
+```bash
+# Pull the latest image
+docker pull santy1504/opspilot-ai-1:v0.8.0
+
+# Run the container
+docker run -it --rm -p 8000:8000 santy1504/opspilot-ai-1:v0.8.0
+
 
 # Sprint 1: Transaction Fraud Classifier (Minimal Working Pipeline)
 
