@@ -88,3 +88,13 @@ This is the first sprint of the **OpsPilot-AI** project, focused on building a m
 ### Install dependencies
 ```bash
 pip install -r requirements.txt
+
+
+## 🚀 Dockerized Deployment
+
+We provide a pre-built Docker image with all Sprint-6 and Sprint-8 features integrated:
+
+```bash
+docker pull santy1504/opspilot-ai-1:v0.8.0
+docker run -it --rm -p 8000:8000 santy1504/opspilot-ai-1:v0.8.0
+
